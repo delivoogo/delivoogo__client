@@ -1,5 +1,7 @@
 import React from 'react';
-
+import "../assets/css/style.css"
+import "../assets/css/bootstrap.min.css"
+import "../assets/css/menu.css"
 function Header(props) {
     return (
         <>
@@ -17,7 +19,7 @@ function Header(props) {
                                 <p>Choose Demo</p>
                                 <a className="s_1" href="demo-1.html">
                                     <img
-                                        src={process.env + '../assets/images/color-scheme/l-01.jpg'} alt="logo"
+                                        src={require('../assets/images/color-scheme/l-01.jpg')} alt="logo"
                                         alt="layout-image"
                                         width={180}
                                         height={93}
@@ -25,7 +27,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-2.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-02.jpg"}
+                                        src={require("../assets/images/color-scheme/l-02.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={130}
@@ -33,7 +35,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-3.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-03.jpg"}
+                                        src={require("../assets/images/color-scheme/l-03.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={98}
@@ -41,7 +43,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-4.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-04.jpg"}
+                                        src={require("../assets/images/color-scheme/l-04.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={115}
@@ -49,7 +51,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-5.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-05.jpg"}
+                                        src={require("../assets/images/color-scheme/l-05.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={118}
@@ -57,7 +59,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-6.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-06.jpg"}
+                                        src={require("../assets/images/color-scheme/l-06.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={93}
@@ -65,7 +67,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-7.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-07.jpg"}
+                                        src={require("../assets/images/color-scheme/l-07.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={121}
@@ -73,7 +75,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-8.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-08.jpg"}
+                                        src={require("../assets/images/color-scheme/l-08.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={115}
@@ -81,7 +83,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-9.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-09.jpg"}
+                                        src={require("../assets/images/color-scheme/l-09.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={109}
@@ -89,7 +91,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-10.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-10.jpg"}
+                                        src={require("../assets/images/color-scheme/l-10.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={125}
@@ -97,7 +99,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-11.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-11.jpg"}
+                                        src={require("../assets/images/color-scheme/l-11.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={128}
@@ -105,7 +107,7 @@ function Header(props) {
                                 </a>
                                 <a className="s_1" href="demo-12.html">
                                     <img
-                                        src={process.env.PUBLIC_URL + "/assets/images/color-scheme/l-12.jpg"}
+                                        src={require("../assets/images/color-scheme/l-12.jpg")}
                                         alt="layout-image"
                                         width={180}
                                         height={123}
@@ -125,7 +127,7 @@ function Header(props) {
                         <div className="callusbtn"><a href="tel:123456789"><i className="fas fa-phone" /></a></div>
                         {/* LOGO IMAGE */}
                         <div className="logo" data-mobile-logo="images/logo-01.png" data-sticky-logo="images/logo-01.png">
-                            <a href="demo-1.html"><img src={process.env.PUBLIC_URL + "assets/images/logo-01.png"} alt="header-logo" /></a>
+                            <a href="demo-1.html"><img src={require("../assets/images/logo-01.png")} alt="header-logo" /></a>
                         </div>
                         {/* BURGER MENU */}
                         <div className="burger-menu">
