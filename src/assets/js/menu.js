@@ -6,12 +6,11 @@
 	Profile: https://codecanyon.net/user/pophonic
 	
 **/
-
-
+window.$ = window.jQuery = require('jquery')
 jQuery(document).ready(function() {
-	
+
 	"use strict";
-	
+
 	/* ========== Sticky on scroll ========== */
 	function stickyNav() {
 

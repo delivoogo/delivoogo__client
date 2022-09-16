@@ -1902,7 +1902,6 @@ span.item-code {
 /*------------------------------------------*/
 /*  MAIN MENU LINK
 /*------------------------------------------*/
-
 .navik-menu ul li > a {
   display: block;
   font-family: 'Oswald', sans-serif;
@@ -5544,6 +5543,13 @@ select:-webkit-autofill:focus {
   width: 100%;
 }
 
+#fix_01{
+  background-color: transparent;
+}
+
+#fix_02{
+  color: white;
+}
 /*------------------------------------------*/
 /*  BREADCRUMB TYPOGRAPHY
 /*------------------------------------------*/ 

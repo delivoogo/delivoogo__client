@@ -2,123 +2,12 @@ import React from 'react';
 import "../assets/css/style.css"
 import "../assets/css/bootstrap.min.css"
 import "../assets/css/menu.css"
+import "../assets/css/flaticon.css"
+import "../assets/js/menu"
+
 function Header(props) {
     return (
         <>
-            <>
-                <div id="stlChanger">
-                    <div className="blockChanger bgChanger">
-                        <a href="#" className="chBut icon-xs">
-                            <span className="flaticon-layers-1" />
-                        </a>
-                        <div className="chBody white-color">
-                            <div
-                                className="stBlock text-center"
-                                style={{ margin: "30px 20px 20px 26px" }}
-                            >
-                                <p>Choose Demo</p>
-                                <a className="s_1" href="demo-1.html">
-                                    <img
-                                        src={require('../assets/images/color-scheme/l-01.jpg')} alt="logo"
-                                        alt="layout-image"
-                                        width={180}
-                                        height={93}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-2.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-02.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={130}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-3.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-03.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={98}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-4.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-04.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={115}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-5.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-05.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={118}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-6.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-06.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={93}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-7.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-07.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={121}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-8.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-08.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={115}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-9.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-09.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={109}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-10.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-10.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={125}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-11.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-11.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={128}
-                                    />
-                                </a>
-                                <a className="s_1" href="demo-12.html">
-                                    <img
-                                        src={require("../assets/images/color-scheme/l-12.jpg")}
-                                        alt="layout-image"
-                                        width={180}
-                                        height={123}
-                                    />
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>{" "}
-                {/* END SWITCHER */}
-            </>
             <header id="header-3" className="header navik-header header-transparent header-shadow">
                 <div className="container">
                     {/* NAVIGATION MENU */}
