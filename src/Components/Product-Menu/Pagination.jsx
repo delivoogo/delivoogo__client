@@ -1,8 +1,8 @@
 import React from 'react';
-import "../assets/css/style.css"
-import "../assets/css/bootstrap.min.css"
-import "../assets/css/menu.css"
-
+import "../../assets/css/style.css"
+import "../../assets/css/bootstrap.min.css"
+import "../../assets/css/menu.css"
+import "../../assets/js/menu"
 
 function Pagination() {
     return (
@@ -17,32 +17,32 @@ function Pagination() {
                                 <nav aria-label="Page navigation">
                                     <ul className="pagination justify-content-center">
                                         <li className="page-item disabled">
-                                            <a className="page-link" href="#" tabIndex={-1}>
+                                            <a className="page-link" href="Components/Product-Menu/Pagination#" tabIndex={-1}>
                                                 <i className="fas fa-angle-left" />
                                             </a>
                                         </li>
                                         <li className="page-item active">
-                                            <a className="page-link" href="#">
+                                            <a className="page-link" href="Components/Product-Menu/Pagination#">
                                                 1 <span className="sr-only">(current)</span>
                                             </a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">
+                                            <a className="page-link" href="Components/Product-Menu/Pagination#">
                                                 2
                                             </a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">
+                                            <a className="page-link" href="Components/Product-Menu/Pagination#">
                                                 3
                                             </a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">
+                                            <a className="page-link" href="Components/Product-Menu/Pagination#">
                                                 4
                                             </a>
                                         </li>
                                         <li className="page-item">
-                                            <a className="page-link" href="#">
+                                            <a className="page-link" href="Components/Product-Menu/Pagination#">
                                                 <i className="fas fa-angle-right" />
                                             </a>
                                         </li>

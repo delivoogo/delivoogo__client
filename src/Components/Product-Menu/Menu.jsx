@@ -1,9 +1,11 @@
 import React from 'react';
-import "../assets/css/style.css"
-import "../assets/css/bootstrap.min.css"
-import "../assets/css/jquery.datetimepicker.min.css"
-import "../assets/css/menu.css"
-import "../assets/js/materialize"
+import "../../assets/css/style.css"
+import "../../assets/css/bootstrap.min.css"
+import "../../assets/css/menu.css"
+import "../../assets/css/flaticon.css"
+import "../../assets/js/materialize"
+import "../../assets/js/jquery-3.5.1.min"
+import "../../assets/js/jquery.magnific-popup.min"
 
 
 function Menu() {
@@ -24,7 +26,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-11.jpg")}
+                                                src={require("../../assets/images/menu/burger-11.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -32,7 +34,7 @@ function Menu() {
                                             {/* Zoom Icon */}
                                             <div className="menu-img-zoom ico-25">
                                                 <a
-                                                    href="../assets/images/menu/burger-11.jpg"
+                                                    href="../../assets/images/menu/burger-11.jpg"
                                                     className="image-link"
                                                 >
                                                     <span className="flaticon-zoom" />
@@ -54,7 +56,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -70,7 +72,7 @@ function Menu() {
                                         </div>
                                         {/* Add To Cart */}
                                         <div className="add-to-cart bg-yellow ico-10">
-                                            <a href="product-single.html">
+                                            <a id="fix_03" href="product-single.html">
                                                 <span className="flaticon-shopping-bag" /> Add to Cart
                                             </a>
                                         </div>
@@ -87,7 +89,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-12.jpg")}
+                                                src={require("../../assets/images/menu/burger-12.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -95,7 +97,7 @@ function Menu() {
                                             {/* Zoom Icon */}
                                             <div className="menu-img-zoom ico-25">
                                                 <a
-                                                    href="../assets/images/menu/burger-12.jpg"
+                                                    href="../../assets/images/menu/burger-12.jpg"
                                                     className="image-link"
                                                 >
                                                     <span className="flaticon-zoom" />
@@ -117,7 +119,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -150,7 +152,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-13.jpg")}
+                                                src={require("../../assets/images/menu/burger-13.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -180,7 +182,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -213,7 +215,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-14.jpg")}
+                                                src={require("../../assets/images/menu/burger-14.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -243,7 +245,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -276,7 +278,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-15.jpg")}
+                                                src={require("../../assets/images/menu/burger-15.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -306,7 +308,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -339,7 +341,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-16.jpg")}
+                                                src={require("../../assets/images/menu/burger-16.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -369,7 +371,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -402,7 +404,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-17.jpg")}
+                                                src={require("../../assets/images/menu/burger-17.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -432,7 +434,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -465,7 +467,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-18.jpg")}
+                                                src={require("../../assets/images/menu/burger-18.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -495,7 +497,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -528,7 +530,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-11.jpg")}
+                                                src={require("../../assets/images/menu/burger-11.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -558,7 +560,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -591,7 +593,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-13.jpg")}
+                                                src={require("../../assets/images/menu/burger-13.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -621,7 +623,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -654,7 +656,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-12.jpg")}
+                                                src={require("../../assets/images/menu/burger-12.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -684,7 +686,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>
@@ -717,7 +719,7 @@ function Menu() {
                                             {/* Image */}
                                             <img
                                                 className="img-fluid"
-                                                src={require("../assets/images/menu/burger-15.jpg")}
+                                                src={require("../../assets/images/menu/burger-15.jpg")}
                                                 alt="menu-image"
                                             />
                                             {/* Item Code */}
@@ -747,7 +749,7 @@ function Menu() {
                                         </div>
                                         {/* Like Icon */}
                                         <div className="like-ico ico-25">
-                                            <a href="#">
+                                            <a href="Components/Product-Menu/Menu#">
                                                 <span className="flaticon-heart" />
                                             </a>
                                         </div>

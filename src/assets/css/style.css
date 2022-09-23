@@ -1193,6 +1193,7 @@ span.item-code {
    background-color: #c6020e!important;
 }
 
+
 /*------------------------------------------*/
 /*  PRICE BADGE
 /*------------------------------------------*/
@@ -5436,7 +5437,7 @@ select:-webkit-autofill:focus {
 }
 
 .bottom-footer-list p.last-li:after { 
-  content: " "; 
+  content: " ";
   padding-left: 0; 
 }
 
@@ -5750,7 +5751,7 @@ select:-webkit-autofill:focus {
   -moz-transition: all 500ms ease-in-out;
   -o-transition: all 500ms ease-in-out;
   -ms-transition: all 500ms ease-in-out;
-  transition: all 500ms ease-in-out;  
+  transition: all 500ms ease-in-out;
 }
 
 /*------------------------------------------*/

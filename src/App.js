@@ -1,18 +1,20 @@
 import React from 'react';
-// import Preload from "Components/Preload"
-import Header from "Components/Header"
-import PageHero from "./Components/PageHero";
-import Menu from "./Components/Menu";
-import Pagination from "./Components/Pagination";
+import MenuPage from "./Components/Product-Menu/Menu_Page";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Menu_Page from "./Components/Product-Menu/Menu_Page";
+import Cart_Page from "./Components/Product-Cart/Cart_Page";
 
 function App(props) {
     return (
         <div>
             <div id="page" className="page">
-                <Header/>
-                <PageHero/>
-                <Menu/>
-                <Pagination/>
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/menu" element={<Menu_Page/>}/>
+                        <Route path="/cart" element={<Cart_Page/>}/>
+                        <Route path="*" element = {<Menu_Page/>}/>
+                    </Routes>
+                </BrowserRouter>
             </div>
         </div>
     );

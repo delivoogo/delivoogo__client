@@ -1,8 +1,8 @@
 import React from 'react';
-import "../assets/css/style.css"
-import "../assets/css/bootstrap.min.css"
-import "../assets/css/jquery.datetimepicker.min.css"
-import "../assets/css/menu.css"
+import "../../assets/css/style.css"
+import "../../assets/css/bootstrap.min.css"
+import "../../assets/css/jquery.datetimepicker.min.css"
+import "../../assets/css/menu.css"
 
 function PageHero() {
 

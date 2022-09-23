@@ -1,9 +1,5 @@
 import React from 'react';
-import "../assets/css/style.css"
-import "../assets/css/bootstrap.min.css"
-import "../assets/css/menu.css"
-import "../assets/css/flaticon.css"
-import "../assets/js/menu"
+import {Link} from "react-router-dom";
 
 function Header(props) {
     return (
@@ -15,8 +11,8 @@ function Header(props) {
                         {/* CALL BUTTON */}
                         <div className="callusbtn"><a href="tel:123456789"><i className="fas fa-phone" /></a></div>
                         {/* LOGO IMAGE */}
-                        <div className="logo" data-mobile-logo="images/logo-01.png" data-sticky-logo="images/logo-01.png">
-                            <a href="demo-1.html"><img src={require("../assets/images/logo-01.png")} alt="header-logo" /></a>
+                        <div className="logo" data-mobile-logo={require("../../assets/images/logo-01.png")} data-sticky-logo={require("../../assets/images/logo-01.png")}>
+                            <a href="demo-1.html"><img src={require("../../assets/images/logo-01.png")} alt="header-logo" /></a>
                         </div>
                         {/* BURGER MENU */}
                         <div className="burger-menu">
@@ -28,7 +24,7 @@ function Header(props) {
                         <nav className="navik-menu menu-caret navik-yellow">
                             <ul className="top-list">
                                 {/* DROPDOWN MENU */}
-                                <li><a href="#">About</a>
+                                <li><a href="Components/Product-Menu/Header#">About</a>
                                     <ul>
                                         <li><a href="about.html">About Testo</a></li>
                                         <li><a href="team.html">Meet The Team</a></li>
@@ -39,7 +35,7 @@ function Header(props) {
                                     </ul>
                                 </li>
                                 {/* DROPDOWN MENU */}
-                                <li><a href="#">Our Menu</a>
+                                <li><a href="Components/Product-Menu/Header#">Our Menu</a>
                                     <ul>
                                         <li><a href="menu-1.html">Menu v.1 - Tabs Cards</a></li>
                                         <li><a href="menu-2.html">Menu v.2 - Cards</a></li>
@@ -47,21 +43,21 @@ function Header(props) {
                                     </ul>
                                 </li>
                                 {/* DROPDOWN MENU */}
-                                <li><a href="#">Shop</a>
+                                <li><a href="Components/Product-Menu/Header#">Shop</a>
                                     <ul>
                                         <li><a href="product-single.html">Single Product</a></li>
                                         <li><a href="cart.html">Shopping Cart</a></li>
                                     </ul>
                                 </li>
                                 {/* DROPDOWN MENU */}
-                                <li><a href="#">Blog</a>
+                                <li><a href="Components/Product-Menu/Header#">Blog</a>
                                     <ul>
                                         <li><a href="blog-listing.html">Blog Listing</a></li>
                                         <li><a href="single-post.html">Single Post</a></li>
                                     </ul>
                                 </li>
                                 {/* DROPDOWN MENU */}
-                                <li><a href="#">Hours &amp; Locations</a>
+                                <li><a href="Components/Product-Menu/Header#">Hours &amp; Locations</a>
                                     <ul>
                                         <li><a href="booking.html">Book A Table</a></li>
                                         <li><a href="locations.html">Our Locations</a></li>
@@ -72,9 +68,9 @@ function Header(props) {
                                 <li className="nav-btn yellow-color"><a href="tel:123456789">789-654-3210</a></li>
                                 {/* BASKET ICON */}
                                 <li className="basket-ico ico-30">
-                                    <a href="cart.html">
+                                    <Link to="/cart">
                                         <span className="ico-holder"><span className="flaticon-shopping-bag" /> <em className="roundpoint">2</em></span>
-                                    </a>
+                                    </Link>
                                 </li>
                             </ul>
                         </nav>	{/* END MAIN MENU */}
