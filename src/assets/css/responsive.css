@@ -217,18 +217,18 @@
   #hero-11 { padding-top: 90px; padding-bottom: 70px; }
   #hero-12 { padding-top: 100px; padding-bottom: 60px; }
 
-  /* Hero Slider */
+  /* HeroCart Slider */
   .slider, .slider .slides { height: 520px; }
   #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 500px; }
   #hero-8 .slider, #hero-8 .slider .slides { height: 460px; }
 
-  /* Hero Text */
+  /* HeroCart Text */
   #hero-1 .caption-txt { padding: 0 6%; margin-top: 0; }
   #hero-3 .caption-txt { padding-left: 0; margin-top: 0; }
   #hero-6 .caption-txt { padding-left: 15px; margin-top: 0; }
   .hero-11-txt { margin-left: -20px; padding-right: 0; }
 
-  /* Hero Headers */
+  /* HeroCart Headers */
   #hero-1 h2 { font-size: 6.5rem; margin-bottom: 25px; }
   #hero-2 h2 { font-size: 6.25rem; }
   #hero-3 h2, #hero-6 h2 { font-size: 5.25rem; margin-bottom: 15px; }
@@ -246,19 +246,19 @@
   #hero-12 h3 { font-size: 3.75rem; margin-bottom: 25px; }
   #hero-12 h2 { font-size: 7.5rem; }
 
-  /* Hero Paragraphs */
+  /* HeroCart Paragraphs */
   #hero-1 p { font-size: 1.5rem; }
   #hero-1 p span { font-size: 2rem; }
   .hero-4-txt p { padding: 0; margin-bottom: 20px; }
   .hero-11-txt p { padding-right: 0; margin-bottom: 30px; }
   .hero-12-txt p { padding: 0 10%; margin-bottom: 50px; }
 
-  /* Hero Boxes */
+  /* HeroCart Boxes */
   .hbox-1-wrapper { padding: 0 4%; }
 
   .hbox-2-wrapper.ico-90 [class*="flaticon-"]:before, .hbox-2-wrapper.ico-90 [class*="flaticon-"]:after { font-size: 5rem; }
 
-  /* Hero Image */
+  /* HeroCart Image */
   .hero-5-img {margin-top: -80px; margin-bottom: -40px; } 
   .hero-11-img { margin-left: -68%; }
   .hero-11-img img { width: 92%; }
@@ -449,7 +449,7 @@
   #footer-1 .footer-contacts p.p-xl, #footer-1 .footer-contacts p.p-lg { font-size: 1.15rem; }
   .footer-contacts p span { font-size: 1.65rem; }
 
-  /* Inner Page Hero */
+  /* Inner Page HeroCart */
   .page-hero-section { padding-top: 90px; padding-bottom: 100px; }
 
   /* Cart */
@@ -651,19 +651,19 @@
   #hero-11 { padding-top: 70px; padding-bottom: 50px; }
   #hero-12 { padding-top: 80px; padding-bottom: 40px; }
 
-  /* Hero Slider */
+  /* HeroCart Slider */
   .slider, .slider .slides { height: 440px; }
   #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 400px; }
   #hero-8 .slider, #hero-8 .slider .slides { height: 390px; }
 
   .slider .indicators { bottom: 20px; }
 
-  /* Hero Text */
+  /* HeroCart Text */
   #hero-1 .caption-txt { padding: 0 5%; margin-top: -5px; }
   #hero-3 .caption-txt, #hero-6 .caption-txt { padding-left: 0; margin-top: 0; }
   .hero-11-txt { margin-top: -20px; margin-left: 0; padding-right: 0; }
 
-  /* Hero Headers */
+  /* HeroCart Headers */
   #hero-1 h2 { font-size: 5.25rem; margin-bottom: 25px; }
   #hero-2 h2 { font-size: 5.25rem; }
   #hero-3 h2, #hero-6 h2 { font-size: 4rem; margin-bottom: 10px; }
@@ -681,7 +681,7 @@
   #hero-12 h3 { font-size: 2.75rem; margin-bottom: 20px; }
   #hero-12 h2 { font-size: 6.25rem; margin-bottom: 20px; }
 
-  /* Hero Paragraphs */
+  /* HeroCart Paragraphs */
   #hero-1 p { font-size: 1.4rem; }
   #hero-1 p span { font-size: 1.9rem; }
   .hero-4-txt p { padding: 0; margin-bottom: 25px; }
@@ -689,11 +689,11 @@
   .hero-11-txt p { padding-right: 0; margin-bottom: 25px; }
   .hero-12-txt p { padding: 0 5%; margin-bottom: 50px; }
 
-  /* Hero Boxes */
+  /* HeroCart Boxes */
   .hbox-1-wrapper, .hbox-2-wrapper { padding: 0 3%; }
   .hbox-2-wrapper.ico-90 [class*="flaticon-"]:before, .hbox-2-wrapper.ico-90 [class*="flaticon-"]:after { font-size: 4.75rem; }
 
-  /* Hero Image */
+  /* HeroCart Image */
   .hero-4-img { margin-left: -25px; }
   .hero-5-img {margin-top: -60px; margin-bottom: -30px; } 
   .hero-11-img { margin-left: -100%; }
@@ -994,7 +994,7 @@
   #footer-2 .footer-info p, #footer-2 .footer-contacts, #footer-2 .footer-socials-links { padding: 0 10%; }
   .footer-contacts p span { font-size: 1.75rem; }
 
-  /* Inner Page Hero */
+  /* Inner Page HeroCart */
   .page-hero-section { padding-top: 80px; padding-bottom: 90px; }
   .page-hero-section h2 { font-size: 3.25rem; }
 
@@ -1268,18 +1268,18 @@
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
   #hero-12 { padding-top: 80px; padding-bottom: 50px; }
 
-  /* Hero Slider */
+  /* HeroCart Slider */
   .slider, .slider .slides { height: 380px; }
   #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 360px; }
   #hero-8 .slider, #hero-8 .slider .slides { height: 320px; }
 
-  /* Hero Text */
+  /* HeroCart Text */
   #hero-1 .caption-txt { padding: 0; margin-top: -10px; }
   #hero-3 .caption-txt, #hero-6 .caption-txt { padding-left: 0; margin-top: 0; }
   .hero-4-txt { padding: 0 5%; margin-top: 30px; }
   .hero-11-txt { text-align: center; margin-top: 35px; margin-left: 0; padding-right: 0; }
 
-  /* Hero Headers */
+  /* HeroCart Headers */
   #hero-1 h2 { font-size: 4.25rem; margin-bottom: 20px; }
   #hero-2 h2 { font-size: 4.25rem; }
   #hero-3 h2, #hero-6 h2 { font-size: 3.25rem; margin-bottom: 10px; }
@@ -1297,7 +1297,7 @@
   #hero-12 h3 { font-size: 2.5rem; margin-bottom: 20px; }
   #hero-12 h2 { font-size: 5.25rem; margin-bottom: 15px; }
 
-  /* Hero Paragraphs */
+  /* HeroCart Paragraphs */
   #hero-1 p { font-size: 1.35rem; }
   #hero-1 p span { font-size: 1.85rem; }
   .hero-4-txt p { padding: 0 5%; margin-bottom: 25px; }
@@ -1305,11 +1305,11 @@
   .hero-11-txt p { padding: 0 10%; margin-bottom: 25px; }
   .hero-12-txt p { padding: 0 4%; margin-bottom: 50px; }
 
-  /* Hero Boxes */
+  /* HeroCart Boxes */
   .hbox-1-wrapper, .hbox-2-wrapper { padding: 0; }
   .hbox-2-wrapper.ico-90 [class*="flaticon-"]:before, .hbox-2-wrapper.ico-90 [class*="flaticon-"]:after { font-size: 4.25rem; }
 
-  /* Hero Image */
+  /* HeroCart Image */
   .hero-5-img {margin-top: -40px; margin-bottom: -20px; } 
   .hero-4-img { padding: 0 5%; }
   .hero-11-img { margin-left: -10%; }
@@ -1627,7 +1627,7 @@
   .bottom-footer-list li p.first-list-link { margin-left: 0; }
   #footer-3 .bottom-footer-list li p { font-size: 1rem; line-height: 1.5; }
 
-  /* Inner Page Hero */
+  /* Inner Page HeroCart */
   .page-hero-section { padding-top: 70px; padding-bottom: 80px; }
   .page-hero-section h2 { font-size: 3.1rem; }
 
@@ -1783,21 +1783,21 @@
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
   #hero-12 { padding-top: 80px; padding-bottom: 50px; }
 
-  /* Hero Slider */
+  /* HeroCart Slider */
   .slider, .slider .slides { height: 350px; }
   #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 330px; }
   #hero-3 .slider .slides li img, #hero-6 .slider .slides li img { background-position: left center; }
   #hero-3 .slider .slides li#slide-2 img { background-position: right center; }
   #hero-8 .slider, #hero-8 .slider .slides { height: 280px; }
 
-  /* Hero Text */
+  /* HeroCart Text */
   #hero-1 .caption-txt { padding: 0; margin-top: -10px; }
   #hero-3 .caption-txt { padding-left: 0; margin-top: -15px; }
   .hero-4-txt { padding: 0; margin-top: 30px; }
   #hero-3 .caption-txt, #hero-6 .caption-txt { text-align: center; padding-left: 0; margin-top: -20px; }
   .hero-11-txt { text-align: center; margin-top: 35px; margin-left: 0; padding-right: 0; }
 
-  /* Hero Headers */
+  /* HeroCart Headers */
   #hero-1 h2 { font-size: 3.15rem; letter-spacing: 2px; margin-bottom: 15px; }
   #hero-2 h2 { font-size: 3.15rem; }
   #hero-3 h2, #hero-6 h2 { font-size: 4rem; margin-bottom: 10px; }
@@ -1815,7 +1815,7 @@
   #hero-12 h3 { font-size: 2.15rem; margin-bottom: 20px; }
   #hero-12 h2 { font-size: 6.5rem; margin-bottom: 15px; }
 
-  /* Hero Paragraphs */
+  /* HeroCart Paragraphs */
   #hero-1 p { font-size: 1.25rem; }
   #hero-1 p span { font-size: 1.75rem; }
   .hero-4-txt p { padding: 0; margin-bottom: 25px; }
@@ -1823,13 +1823,13 @@
   .hero-11-txt p { padding: 0; margin-bottom: 25px; }
   .hero-12-txt p { padding: 0; margin-bottom: 40px; }
 
-  /* Hero Boxes */
+  /* HeroCart Boxes */
   .hbox-1-wrapper, .hbox-2-wrapper { padding: 0 3%; }
   .hbox-1-wrapper .col-sm-3, .hbox-2-wrapper .col-sm-3 { width: 25%; float: left; padding-left: 8px; padding-right: 8px; }
   .hbox-1 h5, .hbox-2 h5 { font-size: 1.15rem; margin-top: 20px; }
   .hbox-2-wrapper.ico-90 [class*="flaticon-"]:before, .hbox-2-wrapper.ico-90 [class*="flaticon-"]:after { font-size: 3.65rem; }
 
-  /* Hero Image */
+  /* HeroCart Image */
   .hero-4-img { padding: 0 5%; }
   .hero-5-img { padding: 0 5%; margin-top: -30px; margin-bottom: -20px; } 
   .hero-11-img { margin-left: -10%; }
@@ -2164,7 +2164,7 @@
   #footer-3 .bottom-footer-list li p { font-size: 1rem; line-height: 1.5; }
   .bottom-footer-list p:after { padding-left: 8px; }
 
-  /* Inner Page Hero */
+  /* Inner Page HeroCart */
   .page-hero-section { padding-top: 70px; padding-bottom: 80px; }
   .page-hero-section h2 { font-size: 2.6rem; }
 
@@ -2336,7 +2336,7 @@
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
   #hero-12 { padding-top: 80px; padding-bottom: 40px; }
 
-  /* Hero Slider */
+  /* HeroCart Slider */
   .slider, .slider .slides { height: 320px; }
   #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 320px; }
   #hero-3 .slider .slides li img, #hero-6 .slider .slides li img { background-position: left center; }
@@ -2345,14 +2345,14 @@
 
   .slider .indicators { bottom: 18px; }
 
-  /* Hero Text */
+  /* HeroCart Text */
   #hero-1 .caption-txt { padding: 0; margin-top: -15px; }
   #hero-3 .caption-txt { padding-left: 0; margin-top: -15px; }
   .hero-4-txt { padding: 0; margin-top: 30px; }
   #hero-3 .caption-txt, #hero-6 .caption-txt { text-align: center; padding-left: 0; margin-top: -20px; }
   .hero-11-txt { text-align: center; margin-top: 35px; margin-left: 0; padding-right: 0; }
 
-  /* Hero Headers */
+  /* HeroCart Headers */
   #hero-1 h2 { font-size: 2.75rem; letter-spacing: 2px; margin-bottom: 10px; }
   #hero-2 h2 { font-size: 2.75rem; letter-spacing: 2px; }
   #hero-3 h2, #hero-6 h2 { font-size: 3.25rem; margin-bottom: 10px; }
@@ -2370,7 +2370,7 @@
   #hero-12 h3 { font-size: 1.85rem; margin-bottom: 20px; }
   #hero-12 h2 { font-size: 6rem; margin-bottom: 15px; }
 
-  /* Hero Paragraphs */
+  /* HeroCart Paragraphs */
   #hero-1 p { font-size: 1.2rem; }
   #hero-1 p span { display: block; font-size: 1.5rem; left: 0; top: 3px; }
   .hero-4-txt p { padding: 0 3%; margin-bottom: 25px; }
@@ -2378,13 +2378,13 @@
   .hero-11-txt p { padding: 0 3%; margin-bottom: 25px; }
   .hero-12-txt p { padding: 0 3%; margin-bottom: 40px; }
 
-  /* Hero Boxes */
+  /* HeroCart Boxes */
   .hbox-1-wrapper, .hbox-2-wrapper { padding: 0 2%; }
   .hbox-1-wrapper .col-sm-3, .hbox-2-wrapper .col-sm-3 { width: 25%; float: left; padding-left: 5px; padding-right: 5px; }
   .hbox-1 h5, .hbox-2 h5 { font-size: 1.15rem; margin-top: 20px; }
   .hbox-2-wrapper.ico-90 [class*="flaticon-"]:before, .hbox-2-wrapper.ico-90 [class*="flaticon-"]:after { font-size: 3.5rem; }
 
-  /* Hero Image */
+  /* HeroCart Image */
   .hero-4-img { padding: 0 5%; }
   .hero-5-img { padding: 0 5%; margin-top: -30px; margin-bottom: -20px; } 
   .hero-11-img { margin-left: -10%; }
@@ -2713,7 +2713,7 @@
   #footer-3 .bottom-footer-list li p { font-size: 1rem; line-height: 1.5; }
   .bottom-footer-list p:after { padding-left: 8px; }
 
-  /* Inner Page Hero */
+  /* Inner Page HeroCart */
   .page-hero-section { padding-top: 70px; padding-bottom: 80px; }
   .page-hero-section h2 { font-size: 2.35rem; }
 
@@ -2901,7 +2901,7 @@
   #hero-10, #hero-12 { padding-top: 80px; padding-bottom: 40px; }
   #hero-11 { padding-top: 80px; padding-bottom: 80px; }
 
-  /* Hero Slider */
+  /* HeroCart Slider */
   .slider, .slider .slides { height: 320px; }
   #hero-3 .slider, #hero-6 .slider, #hero-3 .slider .slides, #hero-6 .slider .slides { height: 310px; }
   #hero-3 .slider .slides li img, #hero-6 .slider .slides li img { background-position: left center; }
@@ -2910,14 +2910,14 @@
 
   .slider .indicators { bottom: 18px; }
 
-  /* Hero Text */
+  /* HeroCart Text */
   #hero-1 .caption-txt { padding: 0; margin-top: -10px; }
   #hero-3 .caption-txt { padding-left: 0; margin-top: -15px; }
   .hero-4-txt { padding: 0; margin-top: 30px; }
   #hero-3 .caption-txt, #hero-6 .caption-txt { text-align: center; padding-left: 0; margin-top: -20px; }
   .hero-11-txt { text-align: center; margin-top: 35px; margin-left: 0; padding-right: 0; }
 
-  /* Hero Headers */
+  /* HeroCart Headers */
   #hero-1 h2 { font-size: 2.25rem; letter-spacing: 2px; margin-bottom: 10px; }
   #hero-2 h2 { font-size: 2.25rem; letter-spacing: 2px; }
   #hero-3 h2, #hero-6 h2 { font-size: 2.95rem; margin-bottom: 10px; }
@@ -2935,7 +2935,7 @@
   #hero-12 h3 { font-size: 1.85rem; margin-bottom: 20px; }
   #hero-12 h2 { font-size: 5.5rem; margin-bottom: 15px; }
 
-  /* Hero Paragraphs */
+  /* HeroCart Paragraphs */
   #hero-1 p { font-size: 1.2rem; }
   #hero-1 p span { display: block; font-size: 1.5rem; left: 0; top: 3px; }
   .hero-4-txt p { padding: 0 3%; margin-bottom: 25px; }
@@ -2943,13 +2943,13 @@
   .hero-11-txt p { padding: 0; margin-bottom: 25px; }
   .hero-12-txt p { padding: 0; margin-bottom: 40px; }
 
-  /* Hero Boxes */
+  /* HeroCart Boxes */
   .hbox-1-wrapper, .hbox-2-wrapper { padding: 0 5%; }
   .hbox-1-wrapper .col-sm-3, .hbox-2-wrapper .col-sm-3 { width: 50%; float: left; padding-left: 5px; padding-right: 5px; }
   .hbox-1 h5, .hbox-2 h5 { font-size: 1.25rem; margin-top: 20px; }
   .hbox-2-wrapper.ico-90 [class*="flaticon-"]:before, .hbox-2-wrapper.ico-90 [class*="flaticon-"]:after { font-size: 3.75rem; }
 
-  /* Hero Image */
+  /* HeroCart Image */
   .hero-4-img { padding: 0 2%; }
   .hero-5-img { padding: 0 5%; margin-top: -20px; margin-bottom: -20px; } 
   .hero-11-img { margin-left: -10%; }
@@ -3279,7 +3279,7 @@
   #footer-3 .bottom-footer-list li p { font-size: 0.925rem; line-height: 1.5; }
   .bottom-footer-list p:after { padding-left: 5px; }
 
-  /* Inner Page Hero */
+  /* Inner Page HeroCart */
   .page-hero-section { padding-top: 70px; padding-bottom: 80px; }
   .page-hero-section h2 { font-size: 2.25rem; }
 

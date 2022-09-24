@@ -2269,7 +2269,7 @@ span.ico-holder {
 }
 
 /*------------------------------------------*/
-/*  Hero Headers
+/*  HeroCart Headers
 /*------------------------------------------*/ 
 
 #hero-1 h2,
@@ -2407,7 +2407,7 @@ span.ico-holder {
 }
 
 /*------------------------------------------*/
-/*  Hero Paragraph
+/*  HeroCart Paragraph
 /*------------------------------------------*/ 
 
 #hero-1 p {
@@ -5549,7 +5549,11 @@ select:-webkit-autofill:focus {
 }
 
 #fix_02{
-  color: white;
+  background-color: initial;
+}
+
+#fix_button{
+  background-color: ;
 }
 /*------------------------------------------*/
 /*  BREADCRUMB TYPOGRAPHY

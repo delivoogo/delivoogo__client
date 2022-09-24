@@ -4,7 +4,7 @@ import "../../assets/css/bootstrap.min.css"
 import "../../assets/css/jquery.datetimepicker.min.css"
 import "../../assets/css/menu.css"
 
-function PageHero() {
+function HeroMenu() {
 
     return (
         <div>
@@ -54,4 +54,4 @@ function PageHero() {
     );
 }
 
-export default PageHero;
+export default HeroMenu;

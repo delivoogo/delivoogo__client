@@ -12,7 +12,9 @@ function Header(props) {
                         <div className="callusbtn"><a href="tel:123456789"><i className="fas fa-phone" /></a></div>
                         {/* LOGO IMAGE */}
                         <div className="logo" data-mobile-logo={require("../../assets/images/logo-01.png")} data-sticky-logo={require("../../assets/images/logo-01.png")}>
-                            <a href="demo-1.html"><img src={require("../../assets/images/logo-01.png")} alt="header-logo" /></a>
+                            <Link to="/">
+                                <img src={require("../../assets/images/logo-01.png")} alt="header-logo" />
+                            </Link>
                         </div>
                         {/* BURGER MENU */}
                         <div className="burger-menu">

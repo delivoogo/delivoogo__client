@@ -1,6 +1,6 @@
 import React from 'react';
-import "../../assets/js/jquery-3.5.1.min"
 import "../../assets/js/custom"
+import "../../assets/js/jquery-3.5.1.min"
 
 function Preload() {
     return (
